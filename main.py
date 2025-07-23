@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Bienvenue dans FastAPI vide"}
+    return {"null"}
